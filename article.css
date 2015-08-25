@@ -1,0 +1,50 @@
+
+body{
+
+	background: url(../imagenes/fondo.jpg) no-repeat center center fixed;
+	-web kit-background-size:cover;
+	-moz-background-size:cover;
+	background-size: cover;
+	color: #ffffff;
+		
+}
+
+#parrafo1{
+	
+	text-align: left;
+	text-justify: auto; /* auto es igual a algoritmo predefinido del buscador, el buscador automaticamente pondra el parrafo justificado */
+	
+}
+
+#mipagina { /*hace referencia al articulo*/
+	width: 1000px;
+	text-align: center;
+	}
+#cabecera {
+	background: url(../imagenes/tecnologia2.jpg);
+	height: 150px; /*ALTO*/
+	width: 1000px; /*ANCHO*/
+	float: center;
+
+}	
+
+#navegacion{
+	height: 45px;
+	background: white;
+}
+
+#seccion{
+	width: 500px;
+/*	text-align: justify; */
+	float: left;/*permite deslizar elementos en la pantalla, derecha izquierda centro,etc*/
+}
+
+#columna{
+	width: 200px;
+	float: right;
+}
+
+#pie{
+	background: purple;
+	float: left;
+}
